@@ -4,5 +4,13 @@ h1{
 #header{
     background-color:black;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.clickables{
+    color:beige;
+    display:flexbox;
+    -ms-flex-item-align: bottom;
+}
+body{
+    background-color:#eca012;
 }
