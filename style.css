@@ -6,11 +6,41 @@ h1{
     display:flex;
     justify-content: space-around;
 }
-.clickables{
-    color:beige;
-    display:flexbox;
-    -ms-flex-item-align: bottom;
-}
 body{
     background-color:#eca012;
+}
+#Content{
+    position:relative
+}
+#Content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+#Content{
+    text-align:center;
+}
+#Content img{
+    width:250px;
+    height:250px;
+}
+#Content p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(50%, 50%);
+    color:yellowgreen;
+    opacity:0;
+}
+#Content:hover p{
+    opacity:1;
+}
+#Content:hover img{
+    filter:blur(25px);
+}
+a.link{
+    color:#128aa8;
+}
+a.visited{
+    color:#32057a;
 }
